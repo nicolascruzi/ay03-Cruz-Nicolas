@@ -1,0 +1,35 @@
+<html>
+    <head>
+        <title> Elaboracion Cerveza</title>
+        <link rel="shortcut icon" type="image/x-icon" href="IDI/hola.ico">
+
+    </head>
+    <body>
+        <h1>Elaboracion de Cervezas</h1>
+        <h2>Primer paso</h2>
+            <img src="https://s09.s3c.es/imag/_v0/770x420/8/e/a/700x420_cerveza.jpg" width="300"  title="barra interescolar"/>
+                <br/>
+                <br/>
+            <p>
+                El <b>primer paso</b> para la <i>elaboración</i> de la cerveza conssiste en calentar agua a 75°C.<br/> A continuacion procederemos a colocar la malta en el liquido.
+            </p>
+
+            Si estas interesado en comprar una olla puedes ir a la siguiente pagina web: <a target="blank"href="https://www.mundocervecero.com/">Presiona aqui</a>
+            <a href="Nico/Barcelona.jpg">Ir a la imagen</a>
+        <h2> Segundo Paso</h2>
+            <hr/>
+
+        <ul>
+            <li>Item 1</li>
+            <li>Item 2</li>
+                <ul>
+                    <li>Pagina acceso 1</li>
+                    <li>Pagina acceso 2</li>
+                </ul>
+            <li>Item 3</li>
+
+        </ul>
+    </body>
+
+
+</html>
