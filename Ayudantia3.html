@@ -3,11 +3,14 @@
         <title> Elaboracion Cerveza</title>
         <link rel="shortcut icon" type="image/x-icon" href="IDI/hola.ico">
         <link href="Decoracion.css" rel="stylesheet"/>
+        <script type="text/javascript" src="jquery-3.5.1.min.js"></script>
+        <script type="text/javascript" src="javascript.js"></script>
+
 
     </head>
     <body>
-        <h1>Elaboracion de Cervezas</h1>
-        <h2>Primer paso</h2>
+        <h1 id= "titulo"> Elaboracion de Cervezas</h1>
+        <h2> Primer paso</h2>
             <img src="https://s09.s3c.es/imag/_v0/770x420/8/e/a/700x420_cerveza.jpg" width="300"  title="barra interescolar"/>
             <img src="http://territoriogastronomico.com/wp-content/uploads/2019/02/cerveza.jpg" width="300"  title="barra interescolar"/>
                 <br/>
@@ -17,8 +20,9 @@
             </p>
 
             Si estas interesado en comprar una olla puedes ir a la siguiente pagina web: <a target="blank"href="https://www.mundocervecero.com/">Presiona aqui</a>
+            <button id = "boton">Si clickeas aquí desaparecerán los tipos y se mostrarán las maquinarias</button>
             <a href="Nico/Barcelona.jpg">Ir a la imagen</a>
-        <h2> Segundo Paso</h2>
+        <h2 id= "subtitulo"> Segundo Paso</h2>
             <hr/>
 
         <ul>
@@ -31,26 +35,29 @@
             <li>Item 3</li>
 
         </ul>
-    <nav>
-        <ul>
-            <li> <a target="_blanck" href="http://www.pythontutor.com/visualize.html#mode=display">Python</a></li>
-            <li> <a target="_blanck" href="https://cursos.canvas.uc.cl/courses/18664/assignments/80988?module_item_id=376197">Canvas</a></li>
-            <li> <a target="_blanck" href="https://www.htmlquick.com/es/reference/tags/nav.html">Como usar html</a></li>
-        </ul>
-    </nav>
+        <nav>
+            <ul>
+                <li> <a target="_blanck" href="http://www.pythontutor.com/visualize.html#mode=display">Python</a></li>
+                <li> <a target="_blanck" href="https://cursos.canvas.uc.cl/courses/18664/assignments/80988?module_item_id=376197">Canvas</a></li>
+                <li> <a target="_blanck" href="https://www.htmlquick.com/es/reference/tags/nav.html">Como usar html</a></li>
+            </ul>
+        </nav>
+        <div>
+            <p class= "seccion" id="elaboracion"> Si selecciona aquí, podrá ver como se elabora la cerveza</p>
+        </div>
+        <div class= "seccion" id = "limpieza">
+            <p>Si selecciona aquí podrá ver los pasos de limpieza</p>
+        </div>
+        <div class= "seccion" id = "tipos">
+            <p>Si selecciona aquí, podrá ver los tipo de cerveza acá</p>
+        </div>
+        <div class= "seccion" id = "maquinaria">
+            <p>Si selecciona aquí podrá ver la maquinaria requerida en el proceso de cerveza</p>
+        </div>
+        <div id= "Lista"> Se muestra la lista de elecciones: 
+        </div>
     </body>
-        <div>
-            <p>Podemos ver mas arriba como se elabora la cerveza</p>
-        </div>
-        <div>
-            <p>Es un proceso donde la limpieza es de suma importancia</p>
-        </div>
-        <div>
-            <p>Podemos ver los tipo de cerveza acá</p>
-        </div>
-        <div>
-            <p>Aquí se observa la maquinaria en el proceso de cerveza</p>
-        </div>
+        
     
 
 </html>
